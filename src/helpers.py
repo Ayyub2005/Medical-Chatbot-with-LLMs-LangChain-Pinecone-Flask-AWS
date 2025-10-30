@@ -61,6 +61,7 @@ def filter_to_minimal_doc(docs: List[Document]) -> List[Document]:
         )
     return minimal_docs
 
+
 #split the documents into smaller chunks
 def text_split(minimal_docs):
     text_splitter = RecursiveCharacterTextSplitter(
